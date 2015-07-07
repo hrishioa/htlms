@@ -1,0 +1,136 @@
+form#simple-form input#input1 {
+	-moz-border-radius-bottomleft: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-topright: 20px;
+	-moz-box-shadow: 1px 1px 10px black;
+	-webkit-border-bottom-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-top-right-radius: 20px;
+	-webkit-box-shadow: 1px 1px 10px black;
+	background-color: #eaeaea;
+	background: -moz-linear-gradient(top, #ffffff, #eaeaea);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #ffffff), color-stop(1.0, #eaeaea));
+	border: 1px solid #cacaca;
+	color: #444;
+	font-size: 1.4em;
+/*	margin: 0 0 25px;
+*/	padding: 8px 10px; 
+	width: 240px;
+}
+
+form#simple-form input#input2 {
+	-moz-border-radius-bottomleft: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-topright: 20px;
+	-moz-box-shadow: 1px 1px 10px black;
+	-webkit-border-bottom-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-top-right-radius: 20px;
+	-webkit-box-shadow: 1px 1px 10px black;
+	background-color: #eaeaea;
+	background: -moz-linear-gradient(top, #ffffff, #eaeaea);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #ffffff), color-stop(1.0, #eaeaea));
+	border: 1px solid #cacaca;
+	color: #444;
+	font-size: 1.4em;
+/*	margin: 0 0 25px;
+*/	padding: 8px 10px; 
+	width: 130px;
+}
+
+#login-box {
+	width:400px;
+	height: 440px;
+	padding: 28px 76px 0 76px;
+	color: #ebebeb;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+
+#background {
+    width: 70%;
+    height: 95%;
+	position:absolute;
+    left: 15%;
+    top: 0%;
+    z-index: -1;
+}
+
+.stretch {
+    height:850px;
+    width:70%;
+}
+
+#login-box img {
+	border:none;
+}
+
+#login-box h2 {
+	padding:0;
+	margin:0;
+	color: #ebebeb;
+	font: bold 44px "Calibri", Arial;
+}
+
+
+#login-box-name {
+	float: left;
+	display:inline;
+	width:110px;
+	text-align: left;
+	padding: 14px 10px 0 0;
+	margin:0 0 7px 0;
+}
+
+#captcha {
+	float: left;
+	width:220px;
+	text-align: left;
+	padding: 5px 0 0 0;
+	margin:0 0 0 0;
+}
+
+#login-box-field {
+	float: left;
+	display:inline;
+	width:230px;
+	margin:0;
+	margin:0 0 12px 0;
+}
+
+#tconf-name {
+	float: left;
+	display:inline;
+	width:75px;
+	text-align: left;
+	padding: 14px 10px 0 0;
+	margin:0 0 7px 0;
+}
+
+#tconf-field {
+	float: left;
+	display:inline;
+	width:150 px;
+	margin:0;
+	margin:0 0 12px 0;
+}
+
+.form-login  {
+	width: 205px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 16px;
+	color: #ebebeb;
+}
+
+
+.login-box-options  {
+	clear:both;
+	padding-left:200px;
+	font-size: 11px;
+}
+

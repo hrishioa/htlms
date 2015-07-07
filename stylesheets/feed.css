@@ -1,0 +1,267 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: Arial,Helvetica,Verdana,sans-serif;
+	font-size: 11px;
+	height:100%;
+}
+
+.bg {
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:-2;
+}
+
+#pos_logo {
+	margin-top:1%;
+	margin-bottom:3%;
+}
+
+.logo {
+	border:none;
+	left:5%;
+	position:relative;
+	width:15.7%;
+	height:auto;
+	z-index:0;
+}
+
+/*No-underline link classes*/
+a.nounder:link { text-decoration:none; }
+a.nounder:visited { text-decoration:none; }
+a.nounder:hover { text-decoration:none; }
+a.nounder:active { text-decoration:none; }
+
+ul.topnav {
+	list-style: none;
+	padding: 0 5px;
+	margin: 0;
+	
+	float:right;
+	background: #222;
+	font-size: 1.2em;
+	background: url(../images/feed_php/topnav_bg.gif) repeat-x;
+	
+	-moz-border-radius-topleft:7px;
+	-moz-border-radius-bottomleft:7px; 
+	-webkit-border-top-left-radius:7px; 
+	-webkit-border-bottom-left-radius:7px; 
+
+}
+ul.topnav li {
+	float:right;
+	margin: 0;
+	padding: 0 5px 0 0;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+}
+ul.topnav li a{
+	padding: 10px 5px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+ul.topnav li a:hover{
+	background: url(../images/feed_php/topnav_hover.gif) no-repeat center top;
+}
+ul.topnav li span { /*--Drop down trigger styles--*/
+	width: 17px;
+	height: 35px;
+	float: right;
+	background: url(../images/feed_php/subnav_btn.gif) no-repeat center top;
+}
+ul.topnav li span.subhover {background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute; 
+	left: 0; top: 35px;
+	float:right;
+	background: #333;
+	margin: 0; padding: 0;
+	display:none;
+	width: 170px;
+	border: 1px solid #111;
+}
+ul.topnav li ul.subnav li{
+	margin: 0; padding: 0;
+	border-top: 1px solid #252525; /*--Create bevel effect--*/
+	border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	clear: both;
+	width: 170px;
+}
+html ul.topnav li ul.subnav li a {
+	float: left;
+	width: 145px;
+	background: #333 url(../images/feed_php/dropdown_linkbg.gif) no-repeat 10px center;
+	padding-left: 20px;
+}
+html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+	background: #222 url(../images/feed_php/dropdown_linkbg.gif) no-repeat 10px center;
+}
+
+
+.banner {
+	position:relative;
+	top:25%;
+	left:10%;
+	width:80%;
+	z-index:-2;
+	display:block;
+}
+
+#header {
+	position:relative;
+	top:0;left:0;
+	height:auto;
+}
+
+#main {
+	background: #ffffff;
+	min-height:500px;
+	width:80%;
+	margin:auto;
+	padding-bottom:5%;
+}
+
+
+.footer {
+	position:relative;
+	left:10%;
+	width:80%;
+	margin:auto;
+}
+
+.feedtitle {
+	color: #2e92bc;
+	font-size:22px;
+	font-weight:600;
+	line-height:150%;
+	text-decoration:none;
+}
+
+.feedtitle:hover {
+	text-decoration:underline;
+}
+
+.subj {
+	color: #3e3f3f;
+	font-size:12px;
+	font-style:italic;
+}
+
+.date {
+	margin-top:0.6%;
+    float:left;
+    display:block;
+    font-size:20px;
+	color: #2d173f;
+	font-weight:600;
+    text-align:center;
+	line-height:260%;
+    width:32px;
+    height:100%;
+}
+.date.month-01 { background: url(../images/feed_php/datedisp/Red/jan.png) no-repeat 0 0 }
+.date.month-02 { background: url(../images/feed_php/datedisp/Red/feb.png) no-repeat 0 0 }
+.date.month-03 { background: url(../images/feed_php/datedisp/Red/mar.png) no-repeat 0 0 }
+.date.month-04 { background: url(../images/feed_php/datedisp/Red/apr.png) no-repeat 0 0 }
+.date.month-05 { background: url(../images/feed_php/datedisp/Red/may.png) no-repeat 0 0 }
+.date.month-06 { background: url(../images/feed_php/datedisp/Red/jun.png) no-repeat 0 0 }
+.date.month-07 { background: url(../images/feed_php/datedisp/Red/jul.png) no-repeat 0 0 }
+.date.month-08 { background: url(../images/feed_php/datedisp/Red/aug.png) no-repeat 0 0 }
+.date.month-09 { background: url(../images/feed_php/datedisp/Red/sep.png) no-repeat 0 0 }
+.date.month-10 { background: url(../images/feed_php/datedisp/Red/oct.png) no-repeat 0 0 }
+.date.month-11 { background: url(../images/feed_php/datedisp/Red/nov.png) no-repeat 0 0 }
+.date.month-12 { background: url(../images/feed_php/datedisp/Red/dec.png) no-repeat 0 0 }
+
+.date.duemonth-01 { background: url(../images/feed_php/datedisp/Green/jan.png) no-repeat 0 0 }
+.date.duemonth-02 { background: url(../images/feed_php/datedisp/Green/feb.png) no-repeat 0 0 }
+.date.duemonth-03 { background: url(../images/feed_php/datedisp/Green/mar.png) no-repeat 0 0 }
+.date.duemonth-04 { background: url(../images/feed_php/datedisp/Green/apr.png) no-repeat 0 0 }
+.date.duemonth-05 { background: url(../images/feed_php/datedisp/Green/may.png) no-repeat 0 0 }
+.date.duemonth-06 { background: url(../images/feed_php/datedisp/Green/jun.png) no-repeat 0 0 }
+.date.duemonth-07 { background: url(../images/feed_php/datedisp/Green/jul.png) no-repeat 0 0 }
+.date.duemonth-08 { background: url(../images/feed_php/datedisp/Green/aug.png) no-repeat 0 0 }
+.date.duemonth-09 { background: url(../images/feed_php/datedisp/Green/sep.png) no-repeat 0 0 }
+.date.duemonth-10 { background: url(../images/feed_php/datedisp/Green/oct.png) no-repeat 0 0 }
+.date.duemonth-11 { background: url(../images/feed_php/datedisp/Green/nov.png) no-repeat 0 0 }
+.date.duemonth-12 { background: url(../images/feed_php/datedisp/Green/dec.png) no-repeat 0 0 }
+
+.date.overduemonth-01 { background: url(../images/feed_php/datedisp/Dead/jan.png) no-repeat 0 0 }
+.date.overduemonth-02 { background: url(../images/feed_php/datedisp/Dead/feb.png) no-repeat 0 0 }
+.date.overduemonth-03 { background: url(../images/feed_php/datedisp/Dead/mar.png) no-repeat 0 0 }
+.date.overduemonth-04 { background: url(../images/feed_php/datedisp/Dead/apr.png) no-repeat 0 0 }
+.date.overduemonth-05 { background: url(../images/feed_php/datedisp/Dead/may.png) no-repeat 0 0 }
+.date.overduemonth-06 { background: url(../images/feed_php/datedisp/Dead/jun.png) no-repeat 0 0 }
+.date.overduemonth-07 { background: url(../images/feed_php/datedisp/Dead/jul.png) no-repeat 0 0 }
+.date.overduemonth-08 { background: url(../images/feed_php/datedisp/Dead/aug.png) no-repeat 0 0 }
+.date.overduemonth-09 { background: url(../images/feed_php/datedisp/Dead/sep.png) no-repeat 0 0 }
+.date.overduemonth-10 { background: url(../images/feed_php/datedisp/Dead/oct.png) no-repeat 0 0 }
+.date.overduemonth-11 { background: url(../images/feed_php/datedisp/Dead/nov.png) no-repeat 0 0 }
+.date.overduemonth-12 { background: url(../images/feed_php/datedisp/Dead/dec.png) no-repeat 0 0 }
+
+.feed {
+	color: #000000;
+	font-size: 18px;
+	font-style:normal;
+	line-height:135%;
+}
+
+.readmore {
+	color: #2e92bc;
+	font-size:14px;
+	font-style:italic;
+	font-weight:bold;
+	float:right;
+	text-decoration:none;
+}
+
+.readmore:hover {
+	cursor:pointer;
+	color: #2e92bc;
+	text-decoration:underline;
+}
+
+#otherwrap {
+	padding-top:1.5%;
+	padding-left:10%;
+	padding-right:8%;
+	font-size:14px;
+	line-height:250%;
+	
+}
+
+#feedwrap {
+	padding-top:1.5%;
+	padding-left:1%;
+	padding-right:8%;
+}
+
+
+#feedright {
+	padding-left:0.9%;
+	margin-left:3.5%;
+}
+
+.attachment {
+	width:2.1%; height:2.1%;
+	margin-right:1%;
+}
+
+.textattach {
+	font-size:14px;
+	color: #466240;
+	text-decoration:none;
+}
+.textattach:hover {
+	cursor: pointer;
+	color: #466240;
+	text-decoration:underline;
+}
+
+.feedattach {
+	padding-left:3%;
+}
+
